@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.105.179.209:3306/test
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+qiniu:
+  accessKey: 3345er4jvn4W80gAnxb1yTKHENTOEX763lNEWMF4
+  secretKey: 6aLBb0yeo2W5nI1D4r0aph7IrPAEjc5521UY3opg
+  bucket: lsq
+  url: http://q1bab6q1w.bkt.clouddn.com/
+
+server:
+  port: 9001
